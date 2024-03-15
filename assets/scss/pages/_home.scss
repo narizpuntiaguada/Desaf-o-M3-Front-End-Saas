@@ -1,0 +1,41 @@
+.main-home{
+    margin: 100px auto 0px auto;
+    border-bottom: 1px solid $secondary;
+}
+
+.novedades {
+    width: 90%;
+    margin:auto;
+
+    &__contenedor-posts {
+        display:flex;
+        gap: $sp2;
+        padding: $sp3 0;
+    }
+
+    &__container-post-actual {
+        width: 60%;
+        padding: 0 $sp5;
+    }
+
+    &__container-posts-anteriores{
+        width: 40%;
+    }
+
+    @media (max-width: 992px){
+        &__contenedor-posts {
+            flex-direction: column;
+        }
+
+        &__container-post-actual {
+            width:100%;
+        }
+    
+        &__container-posts-anteriores{
+            width: 80%;
+            margin: 0 auto;
+            display:flex;
+            flex-direction: column;
+        }   
+    }
+}

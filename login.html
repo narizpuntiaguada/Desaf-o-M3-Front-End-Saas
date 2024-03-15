@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Login</title>
+
+    
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="ADL">
+            <span class="logo__brand"><strong>Blog Frontend</strong></span>
+        </div>
+        <div class="header__container-list">
+            <ul class="lista-nav">
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./">Home</a>
+                </li>
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./login.html">Login</a>
+                </li>
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./registro.html">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main-login">
+            <form class="form-login">
+                <h2 class="form-login__titulo">Bienvenido</h2>
+                <div class="form-login__container-inputs">
+                    <div>
+                        <input class="input" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <input class="input" type="password" name="password" placeholder="Password" required>
+                    </div>
+                </div>
+                <div class="form-login__container-checkbox">
+                    <div>
+                        <input type="checkbox" name="recordarme" id="recordarme">
+                        <span class="form-login__text-checkbox">Recordarme</span>
+                    </div>
+                    <div>
+                        <span class="form-login__text-recupera-password">¿Olvidaste tu contraseña?</span>
+                    </div>
+                </div>
+                <div class="form-login__container-buttons">
+                    <button class="btn btn--adl"><a href="/">Iniciar sesión</a></button>
+                    <button class="btn btn--google">
+                        <img src="./assets/img/logos/logo google.png" alt="adl" width="20">
+                        Iniciar sesión con Google
+                    </button>
+
+                </div>
+                <div class="form-login__footer">
+                    <p>¿No tienes una cuenta? 
+                        <a href="./registro.html"><strong>Registrate</strong></a>
+                    </p>
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+//abstracts
+@import 'abstracts/variables',
+'abstracts/mixins';
+//vendors
+//base
+@import 'base/reset',
+'base/base',
+'base/typography';
+//layouts
+@import 'layout/header',
+'layout/form-login.scss',
+'layout/form-registro.scss',
+'layout/main.scss','layout/newsletter','layout/footer';
+
+//components
+@import 'components/logos',
+ 'components/buttons',
+ 'components/inputs',
+ 'components/cards',
+ 'components/listas';
+//pages
+@import 'pages/home';
+//themes
+//utilities

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Frontend</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+<!-- inicio header -->
+    <header class="header">
+        <div class="logo">
+            <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="ADL">
+            <span class="logo__brand"><strong>Blog Frontend</strong></span>
+        </div>
+        <div class="header__container-list">
+            <ul class="lista-nav">
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./">Home</a>
+                </li>
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./login.html">Login</a>
+                </li>
+                <li class="lista-nav__item">
+                    <a class="lista-nav__link" href="./registro.html">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- fin header -->
+<!-- inicio main -->
+    <main class="main-home">
+        <!-- seccion novedades -->
+        <section class="novedades">
+            <h2 class="novedades__titulo">Novedades</h2>
+            <div class="novedades__contenedor-posts">
+                <div class="novedades__container-post-actual">
+                    <div class="card">
+                        <div class="card__header">
+                            <a href="./post_bootstrap.html">
+                                <img class="card__imagen" src="./assets/img/posts/bootstrap.png" alt="Post boostrap">
+                            </a>
+
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Modifica el tema de Bootstrap con variables CSS</h3>
+                            <div class="logo">
+                                <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="ADL">
+                                <span class="logo__brand"><strong>Desafío latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="novedades__container-posts-anteriores">
+                    <div class="card card--horizontal">
+                        <div class="card__header">
+                            <img class="card__imagen" src="./assets/img/posts/Herencia-JS.png" alt="Herencia">
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Herencia en JavaScript</h3>
+                            <div class="logo">
+                                <img class="logo__imagen logo__imagen--small" src="./assets/img/logos/adl.png"
+                                    alt="ADL">
+                                <span class="logo__brand"><strong>Desafío latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card--horizontal">
+                        <div class="card__header">
+                            <img class="card__imagen" src="./assets/img/posts/Etiquetas-sem nticas-HTML.png"
+                                alt="HTML Semántico">
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Etiquetas semánticas</h3>
+                            <div class="logo">
+                                <img class="logo__imagen logo__imagen--small" src="./assets/img/logos/adl.png"
+                                    alt="ADL">
+                                <span class="logo__brand"><strong>Desafío latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card--horizontal">
+                        <div class="card__header">
+                            <img class="card__imagen" src="./assets/img/posts/reactComponents.png" alt="Post boostrap">
+                        </div>
+                        <div class="card__body">
+                            <small class="card__fecha">12 marzo 2024</small>
+                            <h3 class="card__titulo">Componentes React</h3>
+                            <div class="logo">
+                                <img class="logo__imagen logo__imagen--small" src="./assets/img/logos/adl.png"
+                                    alt="ADL">
+                                <span class="logo__brand"><strong>Desafío latam</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- seccion newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <p class="newsletter__text">Mantente Actualizado del Desarrollo Front End</p>
+                <form class="newsletter__form">
+                    <input class="input" type="email" name="email" placeholder="Email" required>
+                    <button class="btn btn--news"><a href="/">Suscríbete</a></button>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+    <!-- fin main -->
+<!-- inicio footer -->
+    <footer class="footer">
+        <div class="logo">
+            <img class="logo__imagen" src="./assets/img/logos/adl.png" alt="ADL">
+            <span class="logo__brand"><strong>Blog Frontend</strong></span>
+            <p class="footer__text">Desafío Latam 2024</p>
+        </div>
+    </footer>
+<!-- fin footer -->
+</body>
+
+</html>

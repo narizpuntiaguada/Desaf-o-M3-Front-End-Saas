@@ -1,0 +1,38 @@
+.card {
+
+    &__imagen {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    &__body{
+        padding: $sp2 0;
+    }
+
+    &__titulo {
+        padding: $sp2 0;
+    }
+
+    &--horizontal {
+        display:flex;
+        gap: $sp2;
+        padding: $sp2;
+    }
+
+    &--horizontal &__header {
+        width: 55%;
+
+    }
+
+    &--horizontal &__imagen {
+        width: 100%;
+
+    }
+
+    &--horizontal &__body {
+        width: 45%;
+    }
+    
+    
+}

@@ -1,0 +1,33 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &__imagen {
+        width: 50px;
+        
+        height: 50px;
+        border-radius: 10px;
+
+        &--small {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+}
+    }
+
+    &___brand {
+        font-size: 32px;
+        font-weight: 400;
+
+        &--small {
+        font-size: $fs3;
+        }
+    }
+
+    
+}

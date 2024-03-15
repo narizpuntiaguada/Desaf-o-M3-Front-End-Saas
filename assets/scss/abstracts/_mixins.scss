@@ -1,0 +1,19 @@
+@mixin centrado-form() {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin formato-form($ancho){
+    width: $ancho;
+    margin: 0 auto;
+    text-align: center;
+    padding: $sp2;
+}
+
+@mixin formato-fuentes($size, $weight, $color){
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+}
