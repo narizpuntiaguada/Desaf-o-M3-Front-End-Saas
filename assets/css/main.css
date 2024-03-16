@@ -304,4 +304,43 @@ p, small, label, span {
     display: flex;
     flex-direction: column;
   }
+}
+
+.main-post-bootstrap {
+  margin: 100px auto 0 auto;
+  width: 90%;
+}
+.main-post-bootstrap__relacionados-box {
+  width: 30%;
+}
+.main-post-bootstrap__relacionados-box__title {
+  padding: 30px;
+}
+
+.post-bootstrap__news {
+  background-color: rgba(206, 212, 209, 0.947);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post-bootstrap__texto {
+  color: black;
+  padding: 10px 5px;
+  font-family: "Poppins", sans-serif;
+}
+.post-bootstrap__imagen {
+  border-radius: 100px;
+  padding: 20px 40px;
+}
+.post-bootstrap__container-image {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.main-post-bootstrap__relacionados {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
